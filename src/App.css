@@ -13,6 +13,7 @@
   width: 245px;
   height: 483px;
   background-image: url("/images/iphone.png");
+  background-size: 245px 483px;
 }
 
 .text-container {
