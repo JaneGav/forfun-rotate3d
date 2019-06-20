@@ -1,0 +1,49 @@
+.App {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  justify-content: center;
+  align-items: center;
+  perspective: 300px;
+}
+
+.iphone {
+  margin-top: 100px;
+  width: 259px;
+  height: 517px;
+  background-image: url("/images/iphone.png");
+}
+
+.text-container {
+  position: absolute;
+  z-index: -1;
+}
+
+.line1,
+.line2,
+.line3 {
+  display: flex;
+}
+
+.text {
+  color: #000000;
+  -webkit-text-stroke: 1px #c0ff00;
+  font-size: 120px;
+  font-weight: bold;
+  min-width: 300px;
+  letter-spacing: 6px;
+}
+
+.line2 .text {
+  color: #c0ff00;
+  -webkit-text-stroke: none;
+}
+
+.text:first-child {
+  text-align: right;
+}
+
+.text:last-child {
+  text-align: left;
+}
